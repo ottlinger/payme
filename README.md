@@ -53,7 +53,8 @@ gvm use grails 2.5.0
 ```
 
 Start the application
-```grails run-app
+```
+grails run-app
 ```
 
 The application is only configured to be run in development/test mode. For a production deployment you need to configure a mail server
@@ -62,15 +63,18 @@ in order to fully take use of the notification feature when transfering money be
 How to run tests
 ----------------
 Switch to correct grails version:
-```gvm use grails 2.5.0
+```
+gvm use grails 2.5.0
 ```
 
 Start the integration and unit tests
-```grails test-app --stacktrace
+```
+grails test-app --stacktrace
 ```
 
 You may want to have a look on the test reports under
-```target/test-reports/html/all.html
+```
+target/test-reports/html/all.html
 ```
 
 The application contains some basic unit tests that make sure that the domain modelling works ok.
