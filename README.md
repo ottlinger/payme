@@ -24,7 +24,7 @@ A notification service is used to send mail notifications upon bank transfers. T
 
 Example configuration to really send out mails:
 
-<code>
+```java
     //        grails {
     //            mail {
     //                host = "smtp"
@@ -37,7 +37,7 @@ Example configuration to really send out mails:
     //                         "mail.smtp.socketFactory.fallback": "false"]
     //            }
     //        }
-</code>
+```
 
 ## Relevant links
 
@@ -48,7 +48,8 @@ How to run this application
 ---------------------------
 
 Switch to correct grails version:
-```gvm use grails 2.5.0
+```
+gvm use grails 2.5.0
 ```
 
 Start the application
