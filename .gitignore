@@ -1,6 +1,7 @@
-.project
+# Allow easier import into IntelliJ from Eclipse settings, newer versions use gradle
+# .project
+# .classpath
 .settings
-.classpath
 target
 target/**
 .gradle
